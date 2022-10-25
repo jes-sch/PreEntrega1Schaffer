@@ -17,7 +17,7 @@ let nombreUser = prompt("Ingresá tu user / nombre de usuario");
 alert("Hola " + nombreUser + ", bienvenido/a a mi proyecto (:");
 
 function login () {
-    let ingresar = "false";
+    let ingresar = false;
 
     for (let i = 2; i >= 0; i--) {
         let userPassword = prompt("Ingresá tu Password");
